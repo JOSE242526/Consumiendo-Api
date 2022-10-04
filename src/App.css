@@ -1,0 +1,66 @@
+.App {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card__header-App {
+    padding: 0;
+    margin: 0;
+    max-width: 1000px;
+    height: 330px;
+    background-image: url(http://assets.stickpng.com/thumbs/58f37738a4fa116215a92412.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card__container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 6rem;
+    padding: 0;
+}
+
+.card__form {
+    padding: 30px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.btn__card {
+    width: 123px;
+    height: 38px;
+}
+
+.idLocation {
+    width: 120px;
+    height: 310px;
+}
+
+.footer__container {
+    text-align: center;
+    font-size: x-large;
+    background-color: var(--background-body);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10px;
+    margin: 0;
+}
+
+.card__location {
+    text-align: center;
+   
+}

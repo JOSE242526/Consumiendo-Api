@@ -1,0 +1,46 @@
+/* ---- Reset ---- */
+:root {
+    --background-body: #06292E;
+    --background-cards: #062226;
+}
+
+* {
+    box-sizing: border-box;
+    
+}
+
+
+
+body {
+    margin: 0;
+    background-color: var(--background-body);
+}
+
+h1, h2, h3, h4, p, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+}
+ul{
+    padding-left: 0;
+    list-style: none;
+
+}
+
+img{
+    display: block;
+}
+
+button{
+    border: none;
+}
+
+input {
+    outline: none;
+    height: 40px;
+    width: 400px;
+}
+
+h2, h3, h4, p, ul {
+    font-size: 20px;
+}
